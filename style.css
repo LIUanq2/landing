@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Fira+Sans:wght@500&display=swap');
+
+body{
+	margin-top: 0px; 
+}
+
+h1{
+	font-family: 'Fira Sans', serif;
+	font-size: 60px;
+	font-weight: bolder;
+}
+	
+p{
+	font-family: 'Fasthand', cursive;
+	font-size: 38px;
+	font-weight: bold;
+}
+
+h2{
+	font-family: 'Fira Sans', cursive;
+	font-size: 30px;
+	font-weight: bolder;
+	color: antiquewhite;
+	text-align:center ;
+}
+
+h3{
+	font-family: 'Lora',sans-serif;
+	font-size: 30px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+
+.container{
+    width: 800px;
+	margin: 80px auto;
+    text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+.banner{
+	color: antiquewhite;
+	background-image: url("https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDg4MDd8MHwxfHNlYXJjaHwxfHxtYWtlJTIwdXB8ZW58MHx8fHwxNjY2Mjk2MTky&ixlib=rb-4.0.3&q=80&w=1080");
+    background-size: cover;  
+    background-position: center ;
+    padding: 150px 0px;
+}
+
+.carte-green{
+	background-color:#395B64;
+	margin: 40px 200px 40px 200px;
+    padding: 10px;
+    box-shadow: 20px 20px 20px ;
+    border-style: outset;
+    border-width: 4px;
+}
+ .cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px auto;
+  justify-content: space-between;
+  ;
+}
+
+.card{
+	flex-grow: 0;
+	margin: 40px auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-shadow: 2px 4px 5px rgb(57,91,100);
+	background-color: antiquewhite;
+ }
+
+
+.btn-white{
+  color: #256D85;
+  transition: none;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bolder;
+  border-width: 4px;
+}
+
+.btn-white:hover {
+  color: #395B64;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bolder;
+  background-color: #EEE3CB;
+}
+
+.btn-bleu{
+  color: antiquewhite;
+  transition: none;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bolder;
+  background-color: #395B64;
+  box-shadow: 0px 10px 10px  rgb(57,91,100);
+  margin-top: 20px ;
+  margin-left: 530px;
+  padding: 20px ;
+
+}
+.btn-bleu:hover {
+  color: #815B5B;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bolder;
+  background-color: #EEE3CB;
+}
